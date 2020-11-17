@@ -20,7 +20,6 @@ server
 .get("/", pageLanding)
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
-.get("/success", pageSuccess)
 .post("/save-classes", saveClasses)
 
 .listen(5000)
